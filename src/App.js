@@ -3,7 +3,11 @@ import Player from "./Player";
 import Road from "./Road";
 import "./styles.css";
 
-export default function App() {
+
+function App() {
+
+
+
   return (
     <div className="App">
       <div className="game-field">
@@ -14,3 +18,4 @@ export default function App() {
     </div>
   );
 }
+export default App

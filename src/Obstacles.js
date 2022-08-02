@@ -8,10 +8,10 @@ function Obstacles() {
     }, 1000);
   }, []);
 
-  return (
+  return 
     <div
       className="obstacles"
-      style={{ left: move ? 330 : 0, transition: "2s" }}
+      style={{ transform:`translateX(${move ? 330 : 0})` , transition: "2s" ,background :move?'red':'blue'}}
     ></div>
   );
 }
